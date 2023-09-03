@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    REGISTER WITH US
+  </h1>
+
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <br>
+      <br>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <br>
+      <br>
+      <label for="contact">Contact</label>
+      <input type="tel" id="lname" name="lastname" placeholder="Your Phone Number">
+      <br>
+      <br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="firstname" placeholder="Enter your email">
+      <br>
+      <br>
+      <label for="address">Address</label>
+      <input type="text" id="email" name="firstname" placeholder="Enter your Address">
+    </form>
+  </div>
+  <br>
+  <br>
+  <fieldset>
+    <legend>Animals you can shelter:</legend>
+
+    <div>
+      <input type="checkbox" id="dogs" name="dogs">
+      <label for="dogs">Dogs</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="cats" name="cats">
+      <label for="cats">Cats</label>
+    </div>
+    <div>
+      <input type="checkbox" id="rabbits" name="rabbits">
+      <label for="rabbits">Rabbits</label>
+    </div>
+    <div>
+      <input type="checkbox" id="cows" name="cows">
+      <label for="cows">Cows</label>
+    </div>
+    <div>
+      <input type="checkbox" id="pigeon" name="pigeon">
+      <label for="pigeon">Pigeons</label>
+    </div>
+    <div>
+      <input type="checkbox" id="parrot" name="parrot">
+      <label for="parrot">Parrots</label>
+    </div>
+  </fieldset>
+
+  <br>
+
+  <label for="city">City</label>
+  <select id="city" name="city">
+
+    <option value="select the city">--SELECT THE CITY--</option>
+    <option value="churchgate">Churchgate</option>
+    <option value="mumbai central">Mumbai Central</option>
+    <option value="bandra">Bandra</option>
+    <option value="andheri">Andheri</option>
+    <option value="borivali">Borivali</option>
+    <option value="virar">Virar</option>
+    <option value="kurla">Kurla</option>
+    <option value="thane">Thane</option>
+    <option value="ghatkopar">Ghatkopar</option>
+    <option value="vadala">Vadala</option>
+
+
+  </select>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+
+  </form>
+  </div>
+
+
+</body>
+
+</html>
